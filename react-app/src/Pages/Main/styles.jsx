@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
 `;
 
 export const OperationAndControlWrapper = styled.div`
+    margin-top: 25px;
     width: 80%;
     background-color: rgb(229,229,229);
     border-radius: 20px;
@@ -37,5 +38,17 @@ export const Item = styled.div`
 
     p {
         margin-left: 5px;
+    }
+`;
+
+export const FixesAndManagement = styled.div`
+    margin-top: 25px;
+    width: 80%;
+    background-color: rgb(229,229,229);
+    border-radius: 20px;
+
+    h3 {
+        text-align: right;
+        margin-right: 30px;
     }
 `;
