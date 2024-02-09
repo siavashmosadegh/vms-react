@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom';
 const Main = () => {
     return (
         <Wrapper>
-            <p>مشکین قلم پشمین کون</p>
+            <p>ستاد نیرو هوایی</p>
             <Outlet />
         </Wrapper>
     );
