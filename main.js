@@ -11,10 +11,8 @@ function createMainWindow () {
         height: '600'
     });
 
-    mainWindow.webContents.openDevTools();
-
     const startURL = url.format({
-        pathname: path.join('./react-app/build/index.html'),
+        pathname: path.join(__dirname,'./react-app/build/index.html'),
         protocol: 'file'
     });
 
